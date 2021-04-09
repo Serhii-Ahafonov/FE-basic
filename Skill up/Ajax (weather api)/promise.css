@@ -1,0 +1,44 @@
+.stretch-card>.card {
+    width: 100%;
+    min-width: 100%
+}
+/* div{
+    border: 0.5px solid black;
+} */
+.card-weather .card-body:first-child {
+    background: rgb(6,1,85);
+    background: linear-gradient(180deg, rgba(6,1,85,0.7511205165660014) 0%, rgba(32,32,171,0.748319396117822) 36%, rgba(104,143,214,0.7539216370141807) 100%);
+}
+.card .card-body {
+    padding: 2rem 3rem
+}
+
+.card {
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    color: white;
+}
+#currentDate{
+    font-size: 2rem  ;
+    font-family: Roboto;
+}
+.image{
+    height: 150px;
+}
+.card-body> .row{
+    height: 50px;
+}
+#description{
+    margin-left: -15px;
+}
+.atmosphere{
+    margin-bottom: 30px;
+}
+
+
+
+
+
