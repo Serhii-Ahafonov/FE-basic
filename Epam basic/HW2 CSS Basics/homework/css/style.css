@@ -1,0 +1,145 @@
+@media print{
+
+    section:not(:first-of-type),
+    .boxes,
+    .tm-sidebar,
+    ::before{
+        display: none;
+    }
+    h2.tm-section-title{
+        color: #4400ff;
+    }
+
+    div.flex-item>img{
+        height: 200px;
+        width: 200px;
+    }
+
+    section>div{
+        display: flex;
+        justify-content: center;
+    }
+
+    .flex-item:first-of-type{
+        width: 350px;
+    }
+    .tm-content-box{
+        margin: auto;
+    }
+     .tm-footer>p{
+        margin-top: -30px;
+    }
+    .tm-content-header{
+        width: 550px;
+    }
+    .tm-banner-inner>p{
+        margin:  10px  0 15px 0;
+    } 
+}
+
+.tm-box-bg-title:hover{
+    background-color: #87cefa;
+    color: #ffffff;
+}
+
+p::first-letter{
+    color: #87cefa;
+    font-size: 30px;
+}
+
+
+.tm-sidebar,
+.tm-main-content>div,
+.tm-main-content>section{
+    box-shadow: 0 0 4px 4px #cfcdcf;
+}
+.tm-banner{
+    background-color: #f5f5f5;
+}
+.tm-banner-inner{
+    background-color: #ffffff;
+}
+.flex-2-col{
+    display: flex;
+    align-items: center;
+}
+
+section:before{
+    content: " ";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 30px 250px 0 0;
+    border-color: #88cffa transparent transparent transparent;
+}
+
+.active>div>div>h2{
+    color: gainsboro;
+    letter-spacing: 5px;
+}
+
+h2+p{
+    font-style: italic;
+}
+
+.flex-2-col>.padding-medium>p{
+    line-height: 2em;
+    text-indent: 25px;
+}
+
+.heading a:visited{
+    color: black;
+    border-bottom-color: black;
+}
+.heading>div>ol>li>a:hover{
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    color: #87cefa;
+}
+.text::after{
+    content: "New";
+    color: #ff0000;
+    vertical-align: super;
+    font-size: 10px;
+}
+
+.blocks>div:nth-of-type(3)>ul>li{
+    padding: 10px;
+}
+.blocks>div:nth-of-type(3)>ul>li P::first-letter{
+    color: black;
+}
+.blocks>div:nth-of-type(3)>ul>li:nth-of-type(2n){
+    background-color: #f4f4f4;
+}
+
+.contact-form>div:nth-of-type(2)::before{
+    content: "*";
+    font-weight: bold;
+    position: absolute;
+    right: 10px;
+    top: 2px;
+    color: #ff0000;
+}
+
+.btn{
+    background-color: #ffffff;
+    border: solid 1px #87cefa ;
+    color: #87cefa;
+    padding: 15px 52px;
+    text-align: center;
+    float: right;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 0px;
+}
+.btn:hover{
+    background-color: #87cefa;
+    color: #ffffff;
+    border: solid 1px rgb(120, 199, 248) ;
+}
+
+nav>ul>li:hover{
+    background-color: #f5f5f5;
+}
+

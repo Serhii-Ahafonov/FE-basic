@@ -1,0 +1,118 @@
+/* START: Task 1 Styles */
+.table, td{
+    border: solid 1px black;
+}
+td{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    cursor: pointer;
+}
+.bgyellow{
+    background-color: yellow;
+}
+.bgblue{
+    background-color: blue;
+}
+.bggreen{
+    background-color: green;
+}
+/* END: Task 1 Styles */
+
+/* START: Task 2 Styles */
+#task2{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+.non{
+    display: none;
+}
+.invalid{
+    color: white;
+    background-color: #FF8080;
+    border: 1px solid red;
+    padding: 0 20px;
+    margin: 10px 0;
+
+}
+.valid{
+    color: white;
+    background-color: #008000;
+    border: 1px solid black;
+    padding: 0 20px;
+    margin: 10px 0;
+}
+input{
+    width: 85%;
+    height: 30px;
+}
+input:focus{
+    outline: none ;
+    border:1px solid black;
+}
+.btn{
+    height: 36px;
+    margin-left: -2px;
+}
+.invalidPhoneInput{
+    border: solid 1px red;
+}
+.invalidPhoneInput:focus {
+    outline: none ;
+    border: 1px solid red;
+}
+/* END: Task 2 Styles */
+
+/* START: Task 3 Styles */
+.court{
+    width: 600px;
+    height: 330px;
+    background-image: url(./assets/court.png);
+    background-size: 600px 330px;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.ball{
+    
+    width: 40px;
+    height: 40px;
+    transform: translate3d(280px, 144px, 0);
+    transition: transform .3s cubic-bezier(0,.64,.52,.54);
+}
+.basketRight,
+.basketLeft{
+    display: block;
+    width: 15px;
+    height: 15px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    
+}
+.basketRight{
+   left: 92%;
+   top: 109.5px
+}
+.basketLeft{
+    left: 5%;
+    top: 92.5px
+}
+.scoreboard{
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+}
+.non{
+    display: none;
+}
+.red{
+    color: red;
+    text-align: center;
+    width: 600px;
+}
+.teamA,
+.teamB{
+    padding: 0 5px;
+}
+/* END: Task 3 Styles */

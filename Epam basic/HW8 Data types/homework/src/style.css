@@ -1,0 +1,21 @@
+.form :nth-child(n):not(.button-wrap){
+    display: block;
+}
+.form input{
+    background-color: #3CBC8D;
+    border: none;
+    margin: 5px 0;
+}
+.button-wrap{
+    display: flex
+}
+.btn{
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin: 15px 0;
+}
+.btn-converter{
+    margin-left: 10px;
+}

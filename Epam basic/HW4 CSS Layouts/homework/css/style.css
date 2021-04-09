@@ -1,0 +1,263 @@
+body {
+  margin: 0;
+  width: 1620px; }
+
+.header {
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-family: 'Open Sans';
+  color: #FFF;
+  height: 915px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url(../img/apples.jpg); }
+  .header .main-nav {
+    display: flex;
+    font-style: normal;
+    font-weight: 400;
+    font-family: 'Open Sans';
+    font-size: 1.1em;
+    padding-top: 38px; }
+    .header .main-nav .logo {
+      width: 320px;
+      text-align: center;
+      letter-spacing: 4px;
+      align-self: center; }
+      .header .main-nav .logo a {
+        text-decoration: none;
+        color: #FFF;
+        width: 250px; }
+    .header .main-nav .nav-item-list {
+      width: 1450px;
+      display: flex;
+      justify-content: flex-end; }
+      .header .main-nav .nav-item-list ul {
+        width: 600px;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: space-around; }
+        .header .main-nav .nav-item-list ul .nav-item {
+          list-style: none;
+          width: 100px;
+          text-align: center; }
+          .header .main-nav .nav-item-list ul .nav-item .nav-item-link {
+            border: 1px solid transparent;
+            display: block;
+            width: 100%;
+            text-decoration: none;
+            color: #FFF; }
+  .header .header-wrap {
+    margin-top: 175px;
+    height: 525px;
+    display: flex;
+    flex-direction: column;
+    text-align: center; }
+    .header .header-wrap .header-heading {
+      letter-spacing: 7px;
+      font-size: 4em;
+      font-weight: 100; }
+      .header .header-wrap .header-heading span {
+        font-size: 1.8em; }
+    .header .header-wrap .header-text {
+      margin-top: -85px;
+      letter-spacing: 1px; }
+    .header .header-wrap .header-button {
+      height: 300px;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center; }
+      .header .header-wrap .header-button .btn {
+        width: 300px;
+        height: 65px;
+        background-color: rgba(0, 0, 0, 0.4);
+        border: 4px solid #FFF;
+        color: #FFF;
+        font-size: 1.1em;
+        font-style: normal;
+        font-weight: 400;
+        font-family: 'Open Sans'; }
+
+main .small-article {
+  padding: 60px;
+  height: 320px;
+  display: flex;
+  align-items: center; }
+  main .small-article .small-article-text {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-style: normal;
+    font-weight: 400;
+    font-family: 'Open Sans'; }
+    main .small-article .small-article-text p {
+      width: 730px; }
+    main .small-article .small-article-text .small-heading {
+      font-size: 1.8em;
+      white-space: pre-line; }
+    main .small-article .small-article-text .small-text {
+      font-size: 1.1em; }
+main .main-section {
+  height: 2100px;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  background-color: #F3F3F3; }
+  main .main-section .header-section {
+    font-style: normal;
+    font-weight: 400;
+    font-family: 'Open Sans';
+    text-align: center;
+    font-size: 1.9em;
+    padding: 100px 0 75px 0; }
+  main .main-section .section_card_wrap .section_card {
+    display: flex;
+    justify-content: center;
+    height: 370px;
+    align-content: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400; }
+    main .main-section .section_card_wrap .section_card .section_card_img button {
+      position: relative;
+      bottom: 410px;
+      left: 850px;
+      padding: 5px 10px;
+      background-color: rgba(0, 0, 0, 0.4);
+      border: 4px solid #FFF;
+      color: #FFF;
+      font-size: 1.2em; }
+    main .main-section .section_card_wrap .section_card .section_card_img p {
+      position: relative;
+      bottom: 70px;
+      font-weight: 400;
+      color: #fff;
+      padding-left: 20px;
+      font-size: 1.1em; }
+    main .main-section .section_card_wrap .section_card .section_card_img img {
+      width: 950px;
+      height: 370px;
+      filter: brightness(85%); }
+    main .main-section .section_card_wrap .section_card .section_card_right_container {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: #000;
+      padding: 0 10px;
+      font-size: 1.1em; }
+    main .main-section .section_card_wrap .section_card:nth-of-type(2n) {
+      flex-direction: row-reverse;
+      margin: 20px 0; }
+  main .main-section .section_banner {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 40px;
+    height: 200px;
+    background-color: #FFF;
+    display: flex;
+    align-items: center;
+    align-content: center; }
+    main .main-section .section_banner .section_banner_heading {
+      width: 400px;
+      padding: 0 5px 0 40px;
+      font-size: 1.7em;
+      letter-spacing: 1px; }
+    main .main-section .section_banner input {
+      width: 885px;
+      height: 70px;
+      background-color: #F3F3F3; }
+      main .main-section .section_banner input::placeholder {
+        text-indent: 20px;
+        font-size: 1.3em;
+        color: #000;
+        opacity: 1; }
+    main .main-section .section_banner .section_banner_button {
+      font-family: 'Open Sans';
+      border: 1px solid #343434;
+      height: 75px;
+      width: 130px;
+      text-align: center;
+      font-size: 1.1em;
+      background-color: #343434;
+      color: #FFF; }
+
+footer .footer-wrap {
+  padding: 0 60px 0 60px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: flex-end;
+  font-style: normal;
+  font-weight: 400;
+  font-family: 'Open Sans'; }
+  footer .footer-wrap .contacts {
+    display: flex;
+    padding-bottom: 100px; }
+    footer .footer-wrap .contacts .contacts-card {
+      display: flex;
+      width: 25%;
+      flex-direction: column; }
+      footer .footer-wrap .contacts .contacts-card .footer_heading {
+        color: #000;
+        font-weight: bold;
+        font-size: 1.2em; }
+      footer .footer-wrap .contacts .contacts-card .footer_text {
+        white-space: pre-line;
+        color: #a4a4a4;
+        font-size: 1.1em; }
+        footer .footer-wrap .contacts .contacts-card .footer_text span {
+          color: #E8E8E8; }
+      footer .footer-wrap .contacts .contacts-card input {
+        width: 267px;
+        height: 35px;
+        background-color: #F3F3F3; }
+        footer .footer-wrap .contacts .contacts-card input::placeholder {
+          text-indent: 10px;
+          font-size: 1.3em;
+          color: #000;
+          opacity: 1; }
+      footer .footer-wrap .contacts .contacts-card .section_banner_button {
+        float: right;
+        font-family: 'Open Sans';
+        border: 1px solid #343434;
+        height: 40px;
+        width: 100px;
+        text-align: center;
+        font-size: 1.1em;
+        background-color: #343434;
+        color: #FFF; }
+    footer .footer-wrap .contacts :nth-of-type(2) p {
+      font-style: italic; }
+    footer .footer-wrap .contacts :nth-of-type(3) p {
+      line-height: 25px; }
+  footer .footer-wrap .footer-nav {
+    border-top: #E8E8E8 1px solid;
+    display: flex;
+    padding: 20px 0; }
+    footer .footer-wrap .footer-nav .footer-logo {
+      width: 300px;
+      color: #a4a4a4;
+      font-size: 1.1em; }
+    footer .footer-wrap .footer-nav .nav-item-list {
+      width: 1350px;
+      display: flex;
+      justify-content: flex-end; }
+      footer .footer-wrap .footer-nav .nav-item-list ul {
+        width: 350px;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: space-around; }
+        footer .footer-wrap .footer-nav .nav-item-list ul .nav-item {
+          list-style: none;
+          text-align: center; }
+          footer .footer-wrap .footer-nav .nav-item-list ul .nav-item .nav-item-link {
+            border: 1px solid transparent;
+            display: block;
+            text-decoration: none;
+            color: #000;
+            font-size: 1.1em; }
